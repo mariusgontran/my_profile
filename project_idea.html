@@ -1,0 +1,222 @@
+<!doctype html>
+<html>
+
+<head>
+<title>My Profile - Interest in IT</title>
+</head>
+
+<style>
+body  {
+  background-color: #FBE0C4;
+  font-family:Verdana;
+}
+.sidenav {
+  height: 100%;
+  width: 220px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #8AB6D6;
+  overflow-x: hidden;
+  padding-top: 100px;
+}
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 14px;
+  color: #FBE0C4;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #0061A8;
+}
+
+.main {
+  margin-left: 250px;
+  font-size: 14px;
+  padding: 0px 10px;
+  color: #2978B5
+</style>
+
+<body>
+<div class="sidenav">
+    <a href="index.html">Personal Information</a>
+    <a href="interest_in_it.html">Interest in IT</a>
+    <a href="ideal_job.html">Ideal Job</a>
+    <a href="profile.html">Personal Profile</a>
+    <a href="project_idea.html"><b>Project Idea</b></a>
+</div>
+
+<div class="main">
+  <h1 align="middle"> My Profile </h1>
+  <h2> My Project Idea </h2>
+
+  <h3> Overview</h3>
+  <p align="justify">My IT project idea is to create a web application for
+  discovering public parks and areas around your locality for exercising.
+  On this app, users will post new parks but also review other user-submitted
+  places. Users will also submit information about each park, such as amenities,
+  exercising or play equipment, their condition and upload pictures for all the
+  other users to see the park for themselves. The web app will offer
+  flexibility to be opened from any device with only a browser and an internet
+  connection. It will ensure that users with any devices can quickly look up or
+  submit places directly from their smartphones without downloading any other
+  applications. With integration with Google Maps API, they can promptly get
+  directions to get to the desired park to get exercise without any delays!</p>
+
+  <h3>Motivation</h3>
+  <p align="justify">During the lockdown, one of the things that I have enjoyed
+  doing was visiting my local parks when I had the opportunity to exercise
+  outdoors. Unfortunately, as I was a new resident of this suburb, I was
+  unaware of many smaller parks and green areas found in the region. I would
+  often discover them by chance when taking my daily walks or looking up
+  places on Google maps to see anything nearby.  I realised quickly that
+  Google Maps did not describe each park and its amenities unless a user had
+  taken the time to write a detailed review. It would usually take me some
+  time to go through multiple pages of reviews before finding the required
+  information. By then, I realised scrolling on my phone while sitting down
+  on my couch was a lot more comfortable! If I had a web app built for this
+  specific purpose and containing the relevant information, I would be more
+  efficient at finding these new places and deciding if they would be
+  appropriate for me. Looking further into it, I have found a 23% increase in
+  the utilisation of parks at a National level compared to pre-covid numbers
+  (Infrastructure Australia 2020). It meant that I was not the only person in
+  this situation.</p>
+
+  <h3>Description</h3>
+  <p align="justify">This web app will be accessible by entering its URL into
+  a web browser.  The app will allow users to perform multiple tasks as
+  listed below</p>
+
+  <ul>
+  <li>Searching for nearby Parks</li>
+  <li>Creating an account</li>
+  <li>Adding a new park</li>
+  <li>Reviewing parks</li>
+  <li>Adding pictures</li>
+  <li>Reporting incorrect information</li>
+  </ul>
+
+  <p align="justify">One of the primary functions of the web app will be to
+  allow users to find parks in their area by entering their postcodes or
+  allowing the app to locate them. The web app will compare the user's
+  location against a database of parks submitted by other users to provide a
+  list of suggestions based on distance from them. Each park's page will
+  have a description of the park with pictures submitted by other users. Once
+  the user has found a park he is interested in, he can also obtain navigation
+  directions to the park. This feature will make heavy use of a geolocation or
+  navigation platform such as Google Maps Platform. I can use the geolocation
+  feature of the platform to locate the device precisely, and then the routes
+  feature to present the user with the quickest way to the park.</p>
+
+  <p align="justify">Users will require to create an account with their email
+  address and log in to post content and reviews. It will ensure that the
+  content they posted can be traced back to the user if required. Users will
+  not need to log in to view content or do searches. To manage the account
+  creation, I can use an online member management service like Memberstack or
+  Memberspace that allows users to sign up and sign in securely.</p>
+
+  <p align="justify">When a user wishes to submit a new park, they will be
+   required to enter the below information to ensure that every new submission
+   has a decent level of information to help other users:</p>
+
+  <ul>
+  <li>Name of the park</li>
+  <li>Address (can also make use of the geolocation platform)</li>
+  <li>Pictures</li>
+  <li>Description of the amenities and their condition </li>
+    <ul>
+    <li>Kiosks</li>
+    <li>Seating areas</li>
+    <li>Barbecue stations</li>
+    <li>Drinking fountains</li>
+    <li>Restrooms</li>
+    <li>Running/walking track</li>
+    <li>Outdoor exercising equipment</li>
+    <li>Kid’s playground</li>
+    <li>Dogs off-leash areas</li>
+    </ul>
+  </ul>
+
+  <p align="justify">Users who have created an account and signed in will also
+  be able to post reviews of parks. As part of their review, users will have to
+   rate the park and amenities to ensure the content is as current as possible.
+    The web app will use a star rating system (1 to 5 stars) where required.</p>
+
+  <p align="justify">Users will also have a function to upload their images of
+  the park. This feature will be only possible after they have signed in with
+  an account. Pictures uploaded to the web app will need to be approved by an
+  admin to ensure that the images submitted are safe to be viewed by other
+  users. The web app will provide clear guidelines around the below topics
+  before users submit any pictures:</p>
+
+  <ul>
+  <li>Copyright violations</li>
+  <li>Privacy and Safety issues</li>
+  <li>Obscene images</li>
+  <li>Off-topic images</li>
+  </ul>
+
+  <p align="justify">If a user finds information that is not correct, they
+  will have the facility to report it and send suggested amendments. These can
+  be anything from incorrect information about the park (for example, park
+    address or description) or inaccurate pictures. The data will be submitted
+    to an admin to review before any information is changed.</p>
+
+  <h3>Tools and Technologies</h3>
+  <p align="justify">The four main components of the web app will be the</p>
+
+  <ul>
+  <li>Front-end – this is the interface that users will see and interact with.
+  I will be using HTML, CSS and JavaScript to create the app interface.</li>
+  <li>Back-end – all the coding that makes the web app functionalities work.
+  I will require to use a back-end language such as Python, Ruby or PHP.</li>
+  <li>Database – where all the information is stored. A relational database
+  like MySQL or PostgreSQL will need to be implemented to store data</li>
+  <li>Server – where the web app is hosted and accessed from when users run
+  it. I will need to set up a server via a service like Google Cloud or Amazon
+  Web Services.</li>
+  </ul>
+
+  <p align="justify">Another more minor component used is the Google Maps
+  Platform to offer geolocation and navigation services. Finally, to manage
+  user accounts, I could use an open-source tool like MemberPrism to reduce the
+  amount of coding required for account creation and management. </p>
+
+  <h3>Skills required</h3>
+  <p align="justify">In terms of technical skill required, software and web
+  development will be essential to this project. It will be helpful to have a
+  good understanding of both front-end and back-end languages with additional
+  working knowledge of setting up a database and server. Learning HTML,
+  CSS and Javascript will be needed to put together the app's interface.
+  As I am currently learning Python in my "Introduction to Programming" class,
+  it will most likely be used to code the back-end provided it can fulfil all
+  the required functions and features. The back-end will also need to be
+  configured to work with the different APIs of the additional services,
+  such as Google Maps or MemberPrism.</p>
+
+  <p align="justify">Problem-solving,  decisiveness and self-motivation
+  will be the leading soft skills to bring this project to completion. As I
+  will be working on a new solution that doesn't already exist with tools
+  I haven't used previously, there will be many new challenges to overcome.
+  My commitment to the goal will help motivate me when going these challenges
+  arise. Problem-solving using technical skills will be essential to developing
+  the app and ensuring the code is working correctly. Decisiveness will ensure
+   that I am not spending valuable time making a necessary decision while still
+   making the right choice</p>
+
+  <h3>Outcome</h3>
+  <p align="justify">Once the app is ready, I intend to launch it as a
+  trial amongst relatives and friends to ensure that all the features required
+  have been implemented and obtain feedback on what could be changed. The app
+  should allow us to find new parks and get a clear description of their
+  amenities. It will help us decide where to go for our next run, walk or
+  picnic. Following this, I would be looking at making the web app more known
+  via social media to reach a wider audience and help everyone who has been
+  experiencing the outdoors more over the past year.<p><br><br>
+
+</div>
+</body>
+</html>
